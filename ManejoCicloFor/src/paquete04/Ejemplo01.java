@@ -5,6 +5,7 @@
  */
 package paquete04;
 
+import java.util.Scanner;
 import paquete01.*;
 
 /**
@@ -17,20 +18,18 @@ public class Ejemplo01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String cadenaFinal = "";
-        for (int i = 1; i <= 10; i++) {
-            
-            cadenaFinal = String.format("%s%d ", 
-                    cadenaFinal,i);
+        int numero;
+        int contador = 0;
+        int op;
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ingrese hasta que numero de tabla quieres realizar");
+        numero = entrada.nextInt();
+        while (contador < numero) {
+            contador += 1;
+            op = contador * numero;
+            numero +=1;
+            System.out.println(contador + "x" + numero + "=" + op);
         }
-        
-        for (int i = 1; i < 11; i++) {
-            cadenaFinal = String.format("%s%d", 
-                    cadenaFinal,i);
-        }
-        
-        System.out.printf("%s", cadenaFinal);
-
     }
 
 }

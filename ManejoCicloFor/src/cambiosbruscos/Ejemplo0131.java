@@ -19,6 +19,53 @@ public class Ejemplo0131 {
      */
     public static void main(String[] args) {
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         int limite;
         Scanner entrada = new Scanner(System.in);
         
