@@ -20,7 +20,7 @@ public class Ejemplo01 {
         String cadenaFinal = "";
         for (int i = 1; i <= 10; i++) {
             
-            cadenaFinal = String.format("%s%d \n", 
+            cadenaFinal = String.format("%s%d ", 
                     cadenaFinal,i);
         }
         
